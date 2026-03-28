@@ -54,7 +54,14 @@ Replace `<filename>` with the name of the downloaded `.whl` file.
   ```bash
   python -m pip install dlib-19.24.99-cp312-cp312-win_amd64.whl
   ```
-
+- For Python 3.13:
+  ```bash
+  python -m pip install dlib-19.24.99-cp313-cp313-win_amd64.whl
+  ```
+- For Python 3.14:
+  ```bash
+  python -m pip install dlib-19.24.99-cp314-cp314-win_amd64.whl
+  ```
 ### Step 3: Install Face Recognition
 Once Dlib is successfully installed, install the Face Recognition library using:
 ```bash
